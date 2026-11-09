@@ -1,0 +1,40 @@
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node.js
+# =========================
+Frontend/node_modules/
+**/node_modules/
+
+# React build output
+Frontend/dist/
+Frontend/build/
+
+# =========================
+# Java / Spring Boot
+# =========================
+Backend/target/
+**/target/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
